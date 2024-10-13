@@ -1,0 +1,27 @@
+{
+  "name": "simurgh-msg",
+  "version": "0.0.2",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/AFZL210",
+  "repository": {
+    "url": "https://github.com/AFZL210/simurgh-msg"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "Twilio",
+    "SMS",
+    "Email",
+    "Messaging"
+  ],
+  "author": "afzl210",
+  "license": "MIT",
+  "description": "Fast, easy-to-use, all-in-one messaging library for Node.js.",
+  "devDependencies": {
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.3"
+  }
+}
