@@ -1,6 +1,6 @@
 {
   "name": "simurgh-msg",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -23,5 +23,8 @@
   "devDependencies": {
     "tsup": "^8.3.0",
     "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "twilio": "^5.3.3"
   }
 }

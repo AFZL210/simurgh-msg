@@ -1,2 +1,2 @@
-export * from "./sms/sms-service";
+export * from './sms_service';
 export * from "./types";

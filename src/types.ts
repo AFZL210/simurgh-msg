@@ -1,3 +1,5 @@
-export interface InfoI {
-    name: string
-}
+export type TwilioConfig = {
+  twilioNumber: string;
+  sid: string;
+  authToken: string;
+};
